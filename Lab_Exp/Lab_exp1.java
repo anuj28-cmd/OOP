@@ -6,7 +6,7 @@ class Participant {
     private static int counter ; // Counter for generating unique registration IDs
     private String registrationId;
     private String name;
-    private long contactNumber;
+    // private long contactNumber;
     private String branch;
     static{
         counter = 1001;
@@ -14,7 +14,7 @@ class Participant {
 
     public Participant(String name, long contactNumber, String branch) {
         this.name = name;
-        this.contactNumber = contactNumber;
+        // this.contactNumber = contactNumber;
         this.branch = branch;
         this.registrationId = "D"+(counter);
         counter++;    }
