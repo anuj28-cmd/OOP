@@ -1,4 +1,4 @@
-package OOP.Lab_Exp;
+// package OOP.Lab_Exp;
 import java.util.Scanner;
 
 class Participant {
