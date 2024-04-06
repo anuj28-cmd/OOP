@@ -1,4 +1,4 @@
-// package OOP.Lab_Exp;
+package OOP.Lab_Exp;
 class ExceptionHandler {
     public void handleDivideByZero() {
         try {
