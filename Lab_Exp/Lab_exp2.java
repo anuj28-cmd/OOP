@@ -33,7 +33,7 @@ class Adder {
 
         System.out.print("Enter the target sum: ");
         targetSum = sc.nextInt();
-
+sc.close();
     }
 
     // Function to find and return a pair of elements that sum up to the target sum

@@ -18,24 +18,24 @@ public class LoginGUI extends JFrame implements ActionListener {
         userLabel.setBounds(20, 20, 80, 25);
         add(userLabel);
 
-        // userTextField = new JTextField();
-        // userTextField.setBounds(100, 20, 160, 25);
-        // add(userTextField);
+        userTextField = new JTextField();
+        userTextField.setBounds(100, 20, 160, 25);
+        add(userTextField);
 
-        // passwordLabel = new JLabel("Password:");
-        // passwordLabel.setBounds(20, 50, 80, 25);
-        // add(passwordLabel);
+        passwordLabel = new JLabel("Password:");
+        passwordLabel.setBounds(20, 50, 80, 25);
+        add(passwordLabel);
 
-        // passwordField = new JPasswordField();
-        // passwordField.setBounds(100, 50, 160, 25);
-        // add(passwordField);
+        passwordField = new JPasswordField();
+        passwordField.setBounds(100, 50, 160, 25);
+        add(passwordField);
 
-        // loginButton = new JButton("Login");
-        // loginButton.setBounds(100, 80, 80, 25);
-        // loginButton.addActionListener(this);
-        // add(loginButton);
+        loginButton = new JButton("Login");
+        loginButton.setBounds(100, 80, 80, 25);
+        loginButton.addActionListener(this);
+        add(loginButton);
 
-        // setVisible(true);
+        setVisible(true);
     }
 
     public void actionPerformed(ActionEvent e) {
